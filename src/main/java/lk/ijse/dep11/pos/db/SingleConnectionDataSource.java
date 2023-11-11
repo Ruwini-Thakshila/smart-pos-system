@@ -31,7 +31,7 @@ public class SingleConnectionDataSource {
         return (instance == null)?(instance = new SingleConnectionDataSource()): instance;
     }
 
-    public void generateSchema() throws Exception {
+    private void generateSchema() throws Exception {
         URL url = getClass().getResource("/schema.sql");
         Path path = Paths.get(url.toURI());
         String dbScript = Files.readAllLines(path).stream().reduce((prevLine, currentLine) -> prevLine + currentLine).get();
