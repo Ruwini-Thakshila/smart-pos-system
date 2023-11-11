@@ -1,4 +1,4 @@
-# Smart POS System - Java Application
+# Smart POS System
 
 Welcome to the Smart POS System Java application! This application is designed to provide an efficient point of sale solution for businesses using Java programming language.
 
