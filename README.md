@@ -14,6 +14,11 @@ The Smart POS System is a feature-rich point of sale solution that aims to strea
 - **Intuitive Interface**: A user-friendly interface.
 - **Inventory Management**: Efficiently manage your product inventory with real-time updates.
 
+## Technologies
+* Java
+* JavaFX
+* Postgresql
+
 ## Screenshots
 ![Home](/img/screenshots/mainForm.png)
 ![Manage customers](/img/screenshots/manageCustomers.png)
