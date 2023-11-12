@@ -4,8 +4,9 @@ Welcome to the Smart POS System Java application! This application is designed t
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
-3. [Screenshots](#screenshots)
-4. [License](#license)
+3. [Technologies](#technologies)
+4. [Screenshots](#screenshots)
+5. [License](#license)
 
 ## Introduction
 The Smart POS System is a feature-rich point of sale solution that aims to streamline the checkout process for businesses.
