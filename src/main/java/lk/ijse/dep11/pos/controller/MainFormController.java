@@ -148,7 +148,7 @@ public class MainFormController implements Initializable {
         primaryStage.sizeToScene();
         primaryStage.centerOnScreen();
         primaryStage.setOnCloseRequest(null);
-        Platform.runLater(()-> primaryStage.setResizable(false));
+        Platform.runLater(()-> primaryStage.setResizable(true));
     }
 
 }

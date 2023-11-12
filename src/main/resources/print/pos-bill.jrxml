@@ -30,7 +30,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Top">
 					<font fontName="Ubuntu" size="10" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Institute of Software Engineering]]></text>
+				<text><![CDATA[ABC Company]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="0" y="32" width="216" height="19" uuid="eb8ab53d-291c-47d5-999b-912fb139eb14"/>
@@ -260,7 +260,7 @@
 		</band>
 	</columnFooter>
 	<pageFooter>
-		<band height="54" splitType="Stretch">
+		<band height="60" splitType="Stretch">
 			<staticText>
 				<reportElement x="0" y="19" width="216" height="21" uuid="1dea5ca2-cb3d-4f20-a2a3-6002521d17cc"/>
 				<textElement textAlignment="Center">
@@ -269,11 +269,12 @@
 				<text><![CDATA[Thank you, come again!]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="0" y="33" width="216" height="17" uuid="5f2507be-6857-4c44-b382-787bdb468d3f"/>
+				<reportElement x="0" y="33" width="216" height="27" uuid="5f2507be-6857-4c44-b382-787bdb468d3f"/>
 				<textElement textAlignment="Center">
 					<font fontName="Ubuntu" size="8"/>
 				</textElement>
-				<text><![CDATA[Copyright (c) 2023 DEP-11. All Rights Reserved.]]></text>
+				<text><![CDATA[Copyright (c) 2023 DEP-11-Ruwini Thakshila. 
+All Rights Reserved.]]></text>
 			</staticText>
 		</band>
 	</pageFooter>
