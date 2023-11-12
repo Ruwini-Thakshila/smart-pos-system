@@ -5,10 +5,6 @@ import com.jfoenix.controls.JFXTextField;
 import javafx.application.Platform;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
@@ -32,7 +28,7 @@ public class ManageCustomerFormController {
     public JFXButton btnAddNew;
 
     public void navigateToHome(MouseEvent mouseEvent) throws IOException {
-        MainFormController.navigateToMain(root);
+            MainFormController.navigateToMain(root);
     }
 
     public void initialize() {
@@ -127,6 +123,7 @@ public class ManageCustomerFormController {
 
     public void btnDelete_OnAction(ActionEvent actionEvent) {
         try {
+            // check if already associated with an order
             CustomerDataAccess.deleteCustomer(txtCustomerId.getText());
             ObservableList<Customer> customerList = tblCustomers.getItems();
             Customer selectedCustomer = tblCustomers.getSelectionModel().getSelectedItem();
